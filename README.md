@@ -4,7 +4,7 @@ This project was made to calculate time differences for multiple inputs. Note th
 
 ## Example
 
-`duration --work '08:00-12:12; 09:12-10:16' --pause '11:00-12:00'`
+`duration --work '08:00-12:12; 15:12-16:16' --pause '11:00-12:00'`
 
 ```
 Time in hours 4.267
