@@ -1,6 +1,9 @@
 mod core;
 mod diff;
 
+#[cfg(test)]
+mod tests;
+
 use argh::FromArgs;
 use log::debug;
 

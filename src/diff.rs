@@ -35,6 +35,10 @@ pub fn diff(working_input: impl AsRef<str>, pausing_input: impl AsRef<str>) -> R
 fn parse_input(input: impl AsRef<str>) -> Result<Vec<(From, To)>> {
     let mut times = Vec::new();
 
+    if input.as_ref().trim() == "" {
+        return Ok(times);
+    }
+
     for line in input.as_ref().split(";").into_iter() {
         let (from, to) = extract_range(line)?;
         times.push((from, to));
