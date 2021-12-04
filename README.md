@@ -1,4 +1,4 @@
-# Timetable
+# Duration
 
 This project was made to calculate time differences for multiple inputs. Note that the pauses are subtracted from the working time. Therefore, overlapping is allowed.
 
