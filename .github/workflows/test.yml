@@ -16,6 +16,8 @@ jobs:
           - ubuntu-latest
           - windows-latest
           - macOS-latest
+        toolchain:
+          - stable
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
